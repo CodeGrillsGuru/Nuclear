@@ -26,6 +26,6 @@ echo " "
 echo " "
 sleep 50.0
 clear 
-cd $HOME/nuclear
+cd $HOME/Nuclear
 bash nuclear.sh
 exit 
