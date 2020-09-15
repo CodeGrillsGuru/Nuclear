@@ -74,7 +74,7 @@ if [ $choice = 't' ] ; then
 echo -e "$red                    Are you sure? Press$grn ENTER$red to exit$rset"
 read hulkee
 cd $HOME/Infect/
-bash infect.sh
+bash nuclear.sh
 else
 bash sysup.sh
 echo " "
