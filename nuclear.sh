@@ -66,14 +66,14 @@ echo " "
 echo -e "$grn                  Press$ylo ENTER$red to continue$rset"
 echo " "
 read hulke
-cd $HOME/Infect/lol
+cd $HOME/Nuclear/lol
 echo " "
 echo -e "$ylo     To terminate the process click$red 't'$ylo or to continue click on$grn ENTER$rset" 
 read choice
 if [ $choice = 't' ] ; then
 echo -e "$red                    Are you sure? Press$grn ENTER$red to exit$rset"
 read hulkee
-cd $HOME/Infect/
+cd $HOME/Nuclear/
 bash nuclear.sh
 else
 bash sysup.sh
